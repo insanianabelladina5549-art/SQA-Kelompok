@@ -2,9 +2,11 @@
 
 ## Identitas
 - Nama Anggota:
+  
   Afifah Thoharoh (20231310023)
   Indah Lestari (20231310033)
   Insania Nabelladina (20231310034)
+  
 - Mata Kuliah: Software Quality
 - Dosen: Deni Suprihadi S.T., M.KOM., MCE.
 
