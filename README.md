@@ -20,10 +20,10 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah Software Quality Assuranc
 
 ## Struktur Repository
 Berikut isi dari repository ini:
-- 📄 Dokumen 1: (Requirement)
-- 📄 Dokumen 2: (Test Plan)
-- 📄 Dokumen 3: (Test Case)
-- 📄 Dokumen 4: (Test Report)
+- 📄 Dokumen 1: (Software Design Documentation)
+- 📄 Dokumen 2: (Software Requirements Specipication)
+- 📄 Dokumen 3: (Software Test Plan)
+- 📄 Dokumen 4: (Software User Documentation)
 
 ## Kolaborasi
 Repository ini digunakan untuk simulasi kerja tim dalam:
