@@ -37,4 +37,6 @@ User dapat membatalkan proses registrasi.
 
 ## 9. Sistem menampilkan halaman utama
 Setelah login berhasil, sistem menampilkan halaman utama website.
+## Kesimpulan
+Sistem login telah memenuhi 9 karakteristik user berdasarkan kebutuhan fungsional.
 
