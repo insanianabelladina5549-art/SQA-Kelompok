@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | BELaundry</title>
+  <style>
+    :root {
+      --blue-main: #2b7fb8;
+      --blue-dark: #1f5f8b;
+      --blue-soft: #eaf5ff;
+      --white: #ffffff;
+      --gray: #f4f6f8;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, var(--blue-dark), var(--blue-main));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-card {
+      background: var(--white);
+      width: 380px;
+      padding: 36px 32px;
+      border-radius: 22px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+    }
+
+    .login-card h2 {
+      margin: 0 0 6px 0;
+      color: var(--blue-dark);
+      text-align: center;
+    }
+
+    .login-card p {
+      margin: 0 0 28px 0;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--blue-main);
+      background: var(--blue-soft);
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 14px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      background: var(--blue-main);
+      color: white;
+      font-size: 15px;
+    }
+
+    .btn-login:hover {
+      background: var(--blue-dark);
+    }
+
+    .footer-text {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-card">
+    <h2>Login Admin</h2>
+    <p>Masuk ke dashboard BELaundry</p>
+
+    <form>
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" placeholder="Masukkan username" />
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" placeholder="Masukkan password" />
+      </div>
+
+      <button type="button" class="btn-login" onclick="login()">Login</button>
+    </form>
+
+    <div class="footer-text">
+      © 2026 BELaundry
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      // sementara langsung masuk dashboard
+      window.location.href = "dashboard.html";
+    }
+  </script>
+
+</body>
+</html>
