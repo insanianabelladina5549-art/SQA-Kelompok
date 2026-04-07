@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login | BELaundry</title>
+
   <style>
     :root {
       --blue-main: #2b7fb8;
       --blue-dark: #1f5f8b;
       --blue-soft: #eaf5ff;
       --white: #ffffff;
-      --gray: #f4f6f8;
     }
 
     * {
@@ -36,16 +36,15 @@
     }
 
     .login-card h2 {
-      margin: 0 0 6px 0;
-      color: var(--blue-dark);
       text-align: center;
+      color: var(--blue-dark);
     }
 
     .login-card p {
-      margin: 0 0 28px 0;
       text-align: center;
       color: #666;
       font-size: 14px;
+      margin-bottom: 25px;
     }
 
     .form-group {
@@ -56,15 +55,13 @@
       display: block;
       font-size: 14px;
       margin-bottom: 6px;
-      color: #333;
     }
 
     .form-group input {
       width: 100%;
-      padding: 12px 14px;
+      padding: 12px;
       border-radius: 12px;
       border: 1px solid #ccc;
-      font-size: 14px;
     }
 
     .form-group input:focus {
@@ -76,14 +73,13 @@
     .btn-login {
       width: 100%;
       padding: 12px;
-      margin-top: 10px;
       border-radius: 14px;
       border: none;
       cursor: pointer;
       font-weight: bold;
       background: var(--blue-main);
       color: white;
-      font-size: 15px;
+      margin-top: 10px;
     }
 
     .btn-login:hover {
@@ -91,13 +87,23 @@
     }
 
     .footer-text {
-      margin-top: 24px;
+      margin-top: 20px;
       text-align: center;
       font-size: 13px;
-      color: #777;
+    }
+
+    .footer-text a {
+      color: var(--blue-main);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .footer-text a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
 
   <div class="login-card">
@@ -119,14 +125,25 @@
     </form>
 
     <div class="footer-text">
-      © 2026 BELaundry
+      <p><a href="#" onclick="lupaPassword()">Lupa Password?</a></p>
+      <p>Belum punya akun? <a href="#" onclick="register()">Daftar</a></p>
+      <p>© 2026 BELaundry</p>
     </div>
   </div>
 
   <script>
     function login() {
-      // sementara langsung masuk dashboard
-      window.location.href = "dashboard.html";
+      alert("Login berhasil (simulasi)");
+      // redirect opsional
+      // window.location.href = "dashboard.html";
+    }
+
+    function lupaPassword() {
+      alert("Fitur lupa password (simulasi)");
+    }
+
+    function register() {
+      alert("Fitur registrasi (simulasi)");
     }
   </script>
 
