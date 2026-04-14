@@ -1,30 +1,30 @@
-1. Kebutuhan Fungsional (Functional Requirements)
-1. Login & Autentikasi
+## Kebutuhan Fungsional (Functional Requirements)
+1. Login & Autentikasi <br>
 File terkait:
-login.php
-proses_login.php
-logout.php
+- login.php
+- proses_login.php
+- logout.php
 
 Kebutuhan:
-User dapat login menggunakan email & password
-Sistem memverifikasi user dari database
-User dapat logout dari sistem
+- User dapat login menggunakan email & password
+- Sistem memverifikasi user dari database
+- User dapat logout dari sistem
 
-2. Manajemen User
+2. Manajemen User <br>
 File:
-user/list.php
-user/tambah.php
-user/edit.php
-user/hapus.php
-user/reset.php
-tambah_user.php
+- user/list.php
+- user/tambah.php
+- user/edit.php
+- user/hapus.php
+- user/reset.php
+- tambah_user.php
 
 Fungsi:
-Admin dapat:
-Menambah user
-Edit user
-Hapus user
-Reset password
+- Admin dapat:
+- Menambah user
+- Edit user
+- Hapus user
+- Reset password
 
 3. Manajemen Produk
 
@@ -101,7 +101,7 @@ koneksi.php
 Fungsi:
 Menghubungkan sistem ke database MySQL
 
-2. Kebutuhan Non-Fungsional (Non-Functional Requirements)
+## Kebutuhan Non-Fungsional (Non-Functional Requirements)
 1. Platform
 Berbasis web (PHP)
 Berjalan di:
@@ -150,4 +150,3 @@ Kelola data (produk, bahan, pembelian)
 Input produksi
 Sistem hitung biaya
 Generate laporan
-
