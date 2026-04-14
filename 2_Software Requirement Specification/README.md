@@ -101,42 +101,42 @@ Fungsi:
 - Menghubungkan sistem ke database MySQL
 
 ## Kebutuhan Non-Fungsional (Non-Functional Requirements)
-1. Platform
-Berbasis web (PHP)
-Berjalan di:
-XAMPP / Laragon
-Browser (Chrome, Edge)
+1. Platform <br>
+- Berbasis web (PHP)
+- Berjalan di:
+- XAMPP / Laragon
+- Browser (Chrome, Edge)
 
 2. Database
-Menggunakan MySQL
-Tabel kemungkinan:
-user
-produk
-bahan
-pembelian
-produksi
-komposisi
+- Menggunakan MySQL
+- Tabel kemungkinan:
+- user
+- produk
+- bahan
+- pembelian
+- produksi
+- komposisi
 
 3. Output
-Laporan dapat di-export ke PDF (menggunakan dompdf)
+- Laporan dapat di-export ke PDF (menggunakan dompdf)
 
 4. Kebutuhan Perangkat Lunak (Software Requirements)
-PHP (Native)
-MySQL
-Web Server (Apache)
-Library:
-dompdf (untuk generate PDF)
+- PHP (Native)
+- MySQL
+- Web Server (Apache)
+- Library:
+- dompdf (untuk generate PDF)
 
 5. Kebutuhan Perangkat Keras (Hardware)
-Minimal:
-Laptop/PC
-RAM ≥ 4GB
-Storage ≥ 500MB
-Browser modern
+- Minimal:
+- Laptop/PC
+- RAM ≥ 4GB
+- Storage ≥ 500MB
+- Browser modern
 
 6. Aktor Sistem
-Admin
-Mengelola semua data
+- Admin
+- Mengelola semua data
 Mengakses laporan
 Mengatur user
 (Kemungkinan) User biasa
