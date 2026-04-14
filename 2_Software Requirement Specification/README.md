@@ -137,15 +137,15 @@ Fungsi:
 6. Aktor Sistem
 - Admin
 - Mengelola semua data
-Mengakses laporan
-Mengatur user
+- Mengakses laporan
+- Mengatur user
 (Kemungkinan) User biasa
-Login
-Melihat data tertentu
+- Login
+- Melihat data tertentu
 
 7. Alur Sistem (Singkat)
-User login
-Kelola data (produk, bahan, pembelian)
-Input produksi
-Sistem hitung biaya
-Generate laporan
+- User login
+- Kelola data (produk, bahan, pembelian)
+- Input produksi
+- Sistem hitung biaya
+- Generate laporan
