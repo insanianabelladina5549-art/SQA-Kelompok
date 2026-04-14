@@ -1,4 +1,4 @@
-1. Kebutuhan Fungsional (Functional Requirements)
+## Kebutuhan Fungsional (Functional Requirements)
 1. Login & Autentikasi
 File terkait:
 login.php
@@ -101,7 +101,7 @@ koneksi.php
 Fungsi:
 Menghubungkan sistem ke database MySQL
 
-2. Kebutuhan Non-Fungsional (Non-Functional Requirements)
+## Kebutuhan Non-Fungsional (Non-Functional Requirements)
 1. Platform
 Berbasis web (PHP)
 Berjalan di:
