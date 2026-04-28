@@ -1,5 +1,6 @@
 # White Box Testing
 
+White Box Testing adalah metode pengujian yang dilakukan dengan cara melihat dan menguji bagian dalam program, seperti logika, alur, dan kode yang dibuat.
 Pengujian dilakukan dengan melihat logika program pada aplikasi inventory.
 
 ## 1. Login (proses_login.php)
