@@ -1,5 +1,6 @@
 # Grey Box Testing
 
+Grey Box Testing adalah metode pengujian gabungan antara White Box dan Black Box, di mana tester mengetahui sebagian struktur sistem.
 Pengujian dilakukan dengan mengetahui sebagian struktur sistem.
 
 ## 1. Login
