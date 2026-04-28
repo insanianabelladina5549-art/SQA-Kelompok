@@ -1,5 +1,5 @@
 # Black Box Testing
-
+Black Box Testing adalah metode pengujian yang dilakukan tanpa melihat kode program, tetapi hanya fokus pada fungsi sistem berdasarkan input dan output.
 ## 1. Login
 | No | Input Username | Input Password | Expected Output | Hasil |
 |----|----------------|----------------|------------------|--------|
