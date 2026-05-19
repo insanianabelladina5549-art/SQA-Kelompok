@@ -32,7 +32,7 @@ Peninjauan dilakukan pada:
 
 Hasil peninjauan menunjukkan bahwa struktur kode program dapat berjalan sesuai fungsi yang dirancang.
 
----
+----
 
 # 3. Control Flow Testing
 
@@ -50,7 +50,7 @@ Alur program yang diuji:
 
 Hasil pengujian menunjukkan seluruh alur kontrol berjalan dengan baik.
 
----
+----
 
 # 4. Data Flow Testing
 
@@ -65,7 +65,7 @@ Pengujian dilakukan pada:
 
 Hasil pengujian menunjukkan data berhasil tersimpan, diperbarui, dan ditampilkan sesuai proses sistem.
 
----
+----
 
 # 5. Formal Inspections
 
@@ -80,7 +80,7 @@ Pemeriksaan dilakukan pada:
 
 Hasil pemeriksaan menunjukkan tidak ditemukan kesalahan kritis pada sistem.
 
----
+----
 
 # 6. Basis Path Testing
 
@@ -97,7 +97,7 @@ Pengujian dilakukan pada:
 
 Hasil pengujian menunjukkan seluruh jalur program dapat dijalankan dengan baik.
 
----
+----
 
 # 7. Loop Testing
 
@@ -112,7 +112,7 @@ Pengujian dilakukan pada:
 
 Hasil pengujian menunjukkan proses perulangan berjalan normal dan seluruh data dapat ditampilkan dengan baik.
 
----
+----
 
 # Kesimpulan
 
