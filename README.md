@@ -17,6 +17,7 @@
 Repository ini dibuat untuk memenuhi tugas mata kuliah Software Quality Assurance (SQA), yang mencakup:
 1. Pembuatan akun GitHub sebagai media kolaborasi
 2. Penyusunan workspace untuk menyimpan dokumen SQA
+3. pengujian pada sebuah aplikasi
 
 ## Struktur Repository
 Berikut isi dari repository ini:
